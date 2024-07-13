@@ -1,0 +1,96 @@
+{
+    "categories": [
+      {
+        "id": 1,
+        "name": "Electronics",
+        "subcategories": [
+          { "id": 101, "name": "Audio" },
+          { "id": 102, "name": "Mobile Phones" }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Fashion",
+        "subcategories": [
+          { "id": 201, "name": "Footwear" }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Home Appliances",
+        "subcategories": [
+          { "id": 301, "name": "Kitchen Appliances" }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Sports",
+        "subcategories": [
+          { "id": 401, "name": "Fitness Equipment" }
+        ]
+      }
+    ],
+    "products": [
+      {
+        "id": 1,
+        "name": "Wireless Bluetooth Headphones",
+        "price": 29.99,
+        "description": "High-quality wireless Bluetooth headphones with noise-canceling feature.",
+        "category": 1,
+        "subcategory": 101,
+        "imageUrl": "https://example.com/images/headphones.jpg",
+        "rating": 4.5,
+        "reviews": 124,
+        "stock": 50
+      },
+      {
+        "id": 2,
+        "name": "Running Shoes",
+        "price": 59.99,
+        "description": "Comfortable and durable running shoes for all terrains.",
+        "category": 2,
+        "subcategory": 201,
+        "imageUrl": "https://example.com/images/shoes.jpg",
+        "rating": 4.7,
+        "reviews": 98,
+        "stock": 30
+      },
+      {
+        "id": 3,
+        "name": "Smartphone",
+        "price": 499.99,
+        "description": "Latest model smartphone with advanced features and great camera quality.",
+        "category": 1,
+        "subcategory": 102,
+        "imageUrl": "https://example.com/images/smartphone.jpg",
+        "rating": 4.3,
+        "reviews": 210,
+        "stock": 20
+      },
+      {
+        "id": 4,
+        "name": "Electric Kettle",
+        "price": 24.99,
+        "description": "Quick boiling electric kettle with auto shut-off feature.",
+        "category": 3,
+        "subcategory": 301,
+        "imageUrl": "https://example.com/images/kettle.jpg",
+        "rating": 4.0,
+        "reviews": 76,
+        "stock": 40
+      },
+      {
+        "id": 5,
+        "name": "Yoga Mat",
+        "price": 19.99,
+        "description": "Non-slip yoga mat with comfortable cushioning.",
+        "category": 4,
+        "subcategory": 401,
+        "imageUrl": "https://example.com/images/yogamat.jpg",
+        "rating": 4.8,
+        "reviews": 58,
+        "stock": 25
+      }
+    ]
+  }
+  
