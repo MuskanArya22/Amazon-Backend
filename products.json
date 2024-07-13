@@ -1,96 +1,670 @@
 {
-    "categories": [
-      {
-        "id": 1,
-        "name": "Electronics",
-        "subcategories": [
-          { "id": 101, "name": "Audio" },
-          { "id": 102, "name": "Mobile Phones" }
-        ]
-      },
-      {
-        "id": 2,
-        "name": "Fashion",
-        "subcategories": [
-          { "id": 201, "name": "Footwear" }
-        ]
-      },
-      {
-        "id": 3,
-        "name": "Home Appliances",
-        "subcategories": [
-          { "id": 301, "name": "Kitchen Appliances" }
-        ]
-      },
-      {
-        "id": 4,
-        "name": "Sports",
-        "subcategories": [
-          { "id": 401, "name": "Fitness Equipment" }
-        ]
-      }
-    ],
-    "products": [
-      {
-        "id": 1,
-        "name": "Wireless Bluetooth Headphones",
-        "price": 29.99,
-        "description": "High-quality wireless Bluetooth headphones with noise-canceling feature.",
-        "category": 1,
-        "subcategory": 101,
-        "imageUrl": "https://example.com/images/headphones.jpg",
-        "rating": 4.5,
-        "reviews": 124,
-        "stock": 50
-      },
-      {
-        "id": 2,
-        "name": "Running Shoes",
-        "price": 59.99,
-        "description": "Comfortable and durable running shoes for all terrains.",
-        "category": 2,
-        "subcategory": 201,
-        "imageUrl": "https://example.com/images/shoes.jpg",
-        "rating": 4.7,
-        "reviews": 98,
-        "stock": 30
-      },
-      {
-        "id": 3,
-        "name": "Smartphone",
-        "price": 499.99,
-        "description": "Latest model smartphone with advanced features and great camera quality.",
-        "category": 1,
-        "subcategory": 102,
-        "imageUrl": "https://example.com/images/smartphone.jpg",
-        "rating": 4.3,
-        "reviews": 210,
-        "stock": 20
-      },
-      {
-        "id": 4,
-        "name": "Electric Kettle",
-        "price": 24.99,
-        "description": "Quick boiling electric kettle with auto shut-off feature.",
-        "category": 3,
-        "subcategory": 301,
-        "imageUrl": "https://example.com/images/kettle.jpg",
-        "rating": 4.0,
-        "reviews": 76,
-        "stock": 40
-      },
-      {
-        "id": 5,
-        "name": "Yoga Mat",
-        "price": 19.99,
-        "description": "Non-slip yoga mat with comfortable cushioning.",
-        "category": 4,
-        "subcategory": 401,
-        "imageUrl": "https://example.com/images/yogamat.jpg",
-        "rating": 4.8,
-        "reviews": 58,
-        "stock": 25
-      }
-    ]
-  }
-  
+  "categories": [
+    {
+      "id": 1,
+      "name": "Electronics",
+      "subcategories": [
+        { "id": 101, "name": "Audio" },
+        { "id": 102, "name": "Mobile Phones" },
+        { "id": 103, "name": "Computers" },
+        { "id": 104, "name": "Cameras" }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Fashion",
+      "subcategories": [
+        { "id": 201, "name": "Footwear" },
+        { "id": 202, "name": "Clothing" },
+        { "id": 203, "name": "Accessories" }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Home Appliances",
+      "subcategories": [
+        { "id": 301, "name": "Kitchen Appliances" },
+        { "id": 302, "name": "Vacuum Cleaners" },
+        { "id": 303, "name": "Refrigerators" }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Sports",
+      "subcategories": [
+        { "id": 401, "name": "Fitness Equipment" },
+        { "id": 402, "name": "Outdoor Gear" },
+        { "id": 403, "name": "Sportswear" }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Books",
+      "subcategories": [
+        { "id": 501, "name": "Fiction" },
+        { "id": 502, "name": "Non-Fiction" },
+        { "id": 503, "name": "Children's Books" }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Beauty & Personal Care",
+      "subcategories": [
+        { "id": 601, "name": "Skincare" },
+        { "id": 602, "name": "Haircare" },
+        { "id": 603, "name": "Makeup" }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Toys & Games",
+      "subcategories": [
+        { "id": 701, "name": "Action Figures" },
+        { "id": 702, "name": "Board Games" },
+        { "id": 703, "name": "Educational Toys" }
+      ]
+    }
+  ],
+  "products":[
+    {
+      "id": 1,
+      "name": "Wireless Bluetooth Headphones",
+      "price": 29.99,
+      "description": "High-quality wireless Bluetooth headphones with noise-canceling feature.",
+      "category": 1,
+      "subcategory": 101,
+      "imageUrl": "https://example.com/images/headphones.jpg",
+      "rating": 4.5,
+      "reviews": 124,
+      "stock": 50
+    },
+    {
+      "id": 2,
+      "name": "Running Shoes",
+      "price": 59.99,
+      "description": "Comfortable and durable running shoes for all terrains.",
+      "category": 2,
+      "subcategory": 201,
+      "imageUrl": "https://example.com/images/shoes.jpg",
+      "rating": 4.7,
+      "reviews": 98,
+      "stock": 30
+    },
+    {
+      "id": 3,
+      "name": "Smartphone",
+      "price": 499.99,
+      "description": "Latest model smartphone with advanced features and great camera quality.",
+      "category": 1,
+      "subcategory": 102,
+      "imageUrl": "https://example.com/images/smartphone.jpg",
+      "rating": 4.3,
+      "reviews": 210,
+      "stock": 20
+    },
+    {
+      "id": 4,
+      "name": "Electric Kettle",
+      "price": 24.99,
+      "description": "Quick boiling electric kettle with auto shut-off feature.",
+      "category": 3,
+      "subcategory": 301,
+      "imageUrl": "https://example.com/images/kettle.jpg",
+      "rating": 4.0,
+      "reviews": 76,
+      "stock": 40
+    },
+    {
+      "id": 5,
+      "name": "Yoga Mat",
+      "price": 19.99,
+      "description": "Non-slip yoga mat with comfortable cushioning.",
+      "category": 4,
+      "subcategory": 401,
+      "imageUrl": "https://example.com/images/yogamat.jpg",
+      "rating": 4.8,
+      "reviews": 58,
+      "stock": 25
+    },
+    {
+      "id": 6,
+      "name": "Laptop",
+      "price": 999.99,
+      "description": "High-performance laptop with 16GB RAM and 512GB SSD.",
+      "category": 1,
+      "subcategory": 103,
+      "imageUrl": "https://example.com/images/laptop.jpg",
+      "rating": 4.6,
+      "reviews": 150,
+      "stock": 15
+    },
+    {
+      "id": 7,
+      "name": "Digital Camera",
+      "price": 549.99,
+      "description": "Compact digital camera with 20MP sensor and 4K video recording.",
+      "category": 1,
+      "subcategory": 104,
+      "imageUrl": "https://example.com/images/camera.jpg",
+      "rating": 4.4,
+      "reviews": 85,
+      "stock": 25
+    },
+    {
+      "id": 8,
+      "name": "Men's T-Shirt",
+      "price": 14.99,
+      "description": "Comfortable cotton t-shirt available in multiple colors.",
+      "category": 2,
+      "subcategory": 202,
+      "imageUrl": "https://example.com/images/tshirt.jpg",
+      "rating": 4.2,
+      "reviews": 60,
+      "stock": 100
+    },
+    {
+      "id": 9,
+      "name": "Vacuum Cleaner",
+      "price": 129.99,
+      "description": "High-efficiency vacuum cleaner with HEPA filter.",
+      "category": 3,
+      "subcategory": 302,
+      "imageUrl": "https://example.com/images/vacuum.jpg",
+      "rating": 4.3,
+      "reviews": 45,
+      "stock": 30
+    },
+    {
+      "id": 10,
+      "name": "Mountain Bike",
+      "price": 299.99,
+      "description": "Durable mountain bike with 21-speed gear system.",
+      "category": 4,
+      "subcategory": 402,
+      "imageUrl": "https://example.com/images/mountainbike.jpg",
+      "rating": 4.7,
+      "reviews": 33,
+      "stock": 10
+    },
+    {
+      "id": 11,
+      "name": "Mystery Novel",
+      "price": 9.99,
+      "description": "Gripping mystery novel by bestselling author.",
+      "category": 5,
+      "subcategory": 501,
+      "imageUrl": "https://example.com/images/mysterynovel.jpg",
+      "rating": 4.5,
+      "reviews": 200,
+      "stock": 50
+    },
+    {
+      "id": 12,
+      "name": "Face Moisturizer",
+      "price": 19.99,
+      "description": "Hydrating face moisturizer for all skin types.",
+      "category": 6,
+      "subcategory": 601,
+      "imageUrl": "https://example.com/images/moisturizer.jpg",
+      "rating": 4.6,
+      "reviews": 78,
+      "stock": 40
+    },
+    {
+      "id": 13,
+      "name": "LEGO Set",
+      "price": 49.99,
+      "description": "Creative LEGO set with 500 pieces.",
+      "category": 7,
+      "subcategory": 703,
+      "imageUrl": "https://example.com/images/lego.jpg",
+      "rating": 4.8,
+      "reviews": 120,
+      "stock": 20
+    },
+    {
+      "id": 14,
+      "name": "Hair Dryer",
+      "price": 29.99,
+      "description": "Powerful hair dryer with multiple heat settings.",
+      "category": 6,
+      "subcategory": 602,
+      "imageUrl": "https://example.com/images/hairdryer.jpg",
+      "rating": 4.4,
+      "reviews": 68,
+      "stock": 35
+    },
+    {
+      "id": 15,
+      "name": "Leather Wallet",
+      "price": 24.99,
+      "description": "Stylish leather wallet with multiple compartments.",
+      "category": 2,
+      "subcategory": 203,
+      "imageUrl": "https://example.com/images/wallet.jpg",
+      "rating": 4.5,
+      "reviews": 53,
+      "stock": 50
+    },
+    {
+      "id": 16,
+      "name": "Gaming Mouse",
+      "price": 39.99,
+      "description": "Ergonomic gaming mouse with customizable buttons.",
+      "category": 1,
+      "subcategory": 103,
+      "imageUrl": "https://example.com/images/gamingmouse.jpg",
+      "rating": 4.6,
+      "reviews": 110,
+      "stock": 25
+    },
+    {
+      "id": 17,
+      "name": "Refrigerator",
+      "price": 599.99,
+      "description": "Energy-efficient refrigerator with large capacity.",
+      "category": 3,
+      "subcategory": 303,
+      "imageUrl": "https://example.com/images/refrigerator.jpg",
+      "rating": 4.4,
+      "reviews": 37,
+      "stock": 15
+    },
+    {
+      "id": 18,
+      "name": "Tent",
+      "price": 89.99,
+      "description": "Spacious 4-person tent for outdoor adventures.",
+      "category": 4,
+      "subcategory": 402,
+      "imageUrl": "https://example.com/images/tent.jpg",
+      "rating": 4.7,
+      "reviews": 41,
+      "stock": 20
+    },
+    {
+      "id": 19,
+      "name": "Fantasy Novel",
+      "price": 12.99,
+      "description": "Epic fantasy novel with immersive world-building.",
+      "category": 5,
+      "subcategory": 501,
+      "imageUrl": "https://example.com/images/fantasynovel.jpg",
+      "rating": 4.8,
+      "reviews": 180,
+      "stock": 60
+    },
+    {
+      "id": 20,
+      "name": "Action Figure",
+      "price": 14.99,
+      "description": "Detailed action figure with movable joints.",
+      "category": 7,
+      "subcategory": 701,
+      "imageUrl": "https://example.com/images/actionfigure.jpg",
+      "rating": 4.5,
+      "reviews": 95,
+      "stock": 30
+    },
+    {
+      "id": 21,
+      "name": "Blender",
+      "price": 49.99,
+      "description": "High-speed blender for smoothies and soups.",
+      "category": 3,
+      "subcategory": 301,
+      "imageUrl": "https://example.com/images/blender.jpg",
+      "rating": 4.3,
+      "reviews": 65,
+      "stock": 25
+    },
+    {
+      "id": 22,
+      "name": "Men's Sneakers",
+      "price": 74.99,
+      "description": "Comfortable and stylish men's sneakers.",
+      "category": 2,
+      "subcategory": 201,
+      "imageUrl": "https://example.com/images/mensneakers.jpg",
+      "rating": 4.7,
+      "reviews": 88,
+      "stock": 40
+    },
+    {
+      "id": 23,
+      "name": "Wireless Mouse",
+      "price": 19.99,
+      "description": "Compact wireless mouse with long battery life.",
+      "category": 1,
+      "subcategory": 103,
+      "imageUrl": "https://example.com/images/wirelessmouse.jpg",
+      "rating": 4.4,
+      "reviews": 70,
+      "stock": 50
+    },
+    {
+      "id": 24,
+      "name": "E-Reader",
+      "price": 129.99,
+      "description": "Lightweight e-reader with high-resolution display.",
+      "category": 1,
+      "subcategory": 103,
+      "imageUrl": "https://example.com/images/ereader.jpg",
+      "rating": 4.6,
+      "reviews": 150,
+      "stock": 25
+    },
+    {
+      "id": 25,
+      "name": "Kids' Backpack",
+      "price": 24.99,
+      "description": "Colorful backpack with multiple compartments.",
+      "category": 2,
+      "subcategory": 203,
+      "imageUrl": "https://example.com/images/kidsbackpack.jpg",
+      "rating": 4.5,
+      "reviews": 45,
+      "stock": 35
+    },
+    {
+      "id": 26,
+      "name": "Non-Fiction Book",
+      "price": 14.99,
+      "description": "Inspirational non-fiction book by a renowned author.",
+      "category": 5,
+      "subcategory": 502,
+      "imageUrl": "https://example.com/images/nonfictionbook.jpg",
+      "rating": 4.7,
+      "reviews": 130,
+      "stock": 55
+    },
+    {
+      "id": 27,
+      "name": "Electric Toothbrush",
+      "price": 39.99,
+      "description": "Rechargeable electric toothbrush with multiple modes.",
+      "category": 6,
+      "subcategory": 601,
+      "imageUrl": "https://example.com/images/electrictoothbrush.jpg",
+      "rating": 4.6,
+      "reviews": 90,
+      "stock": 40
+    },
+    {
+      "id": 28,
+      "name": "Smartwatch",
+      "price": 199.99,
+      "description": "Advanced smartwatch with fitness tracking features.",
+      "category": 1,
+      "subcategory": 102,
+      "imageUrl": "https://example.com/images/smartwatch.jpg",
+      "rating": 4.4,
+      "reviews": 110,
+      "stock": 20
+    },
+    {
+      "id": 29,
+      "name": "Men's Jacket",
+      "price": 99.99,
+      "description": "Warm and stylish men's jacket for winter.",
+      "category": 2,
+      "subcategory": 202,
+      "imageUrl": "https://example.com/images/mensjacket.jpg",
+      "rating": 4.7,
+      "reviews": 75,
+      "stock": 30
+    },
+    {
+      "id": 30,
+      "name": "Board Game",
+      "price": 29.99,
+      "description": "Fun and engaging board game for family nights.",
+      "category": 7,
+      "subcategory": 702,
+      "imageUrl": "https://example.com/images/boardgame.jpg",
+      "rating": 4.8,
+      "reviews": 55,
+      "stock": 20
+    },
+    {
+      "id": 31,
+      "name": "Tablet",
+      "price": 299.99,
+      "description": "Versatile tablet with high-resolution display and fast performance.",
+      "category": 1,
+      "subcategory": 103,
+      "imageUrl": "https://example.com/images/tablet.jpg",
+      "rating": 4.5,
+      "reviews": 180,
+      "stock": 30
+    },
+    {
+      "id": 32,
+      "name": "Wireless Charger",
+      "price": 19.99,
+      "description": "Fast wireless charger compatible with multiple devices.",
+      "category": 1,
+      "subcategory": 102,
+      "imageUrl": "https://example.com/images/wirelesscharger.jpg",
+      "rating": 4.4,
+      "reviews": 60,
+      "stock": 50
+    },
+    {
+      "id": 33,
+      "name": "Men's Watch",
+      "price": 89.99,
+      "description": "Elegant men's watch with leather strap.",
+      "category": 2,
+      "subcategory": 203,
+      "imageUrl": "https://example.com/images/menswatch.jpg",
+      "rating": 4.6,
+      "reviews": 45,
+      "stock": 25
+    },
+    {
+      "id": 34,
+      "name": "Children's Storybook",
+      "price": 9.99,
+      "description": "Delightful storybook with beautiful illustrations for children.",
+      "category": 5,
+      "subcategory": 503,
+      "imageUrl": "https://example.com/images/childrensstorybook.jpg",
+      "rating": 4.8,
+      "reviews": 100,
+      "stock": 70
+    },
+    {
+      "id": 35,
+      "name": "Espresso Machine",
+      "price": 129.99,
+      "description": "Automatic espresso machine with milk frother.",
+      "category": 3,
+      "subcategory": 301,
+      "imageUrl": "https://example.com/images/espressomachine.jpg",
+      "rating": 4.5,
+      "reviews": 50,
+      "stock": 20
+    },
+    {
+      "id": 36,
+      "name": "Bluetooth Speaker",
+      "price": 49.99,
+      "description": "Portable Bluetooth speaker with high-quality sound.",
+      "category": 1,
+      "subcategory": 101,
+      "imageUrl": "https://example.com/images/bluetoothspeaker.jpg",
+      "rating": 4.7,
+      "reviews": 120,
+      "stock": 35
+    },
+    {
+      "id": 37,
+      "name": "Kids' Tablet",
+      "price": 99.99,
+      "description": "Kid-friendly tablet with parental controls and educational apps.",
+      "category": 1,
+      "subcategory": 103,
+      "imageUrl": "https://example.com/images/kidstablet.jpg",
+      "rating": 4.6,
+      "reviews": 80,
+      "stock": 25
+    },
+    {
+      "id": 38,
+      "name": "Men's Running Shorts",
+      "price": 19.99,
+      "description": "Lightweight and breathable men's running shorts.",
+      "category": 2,
+      "subcategory": 202,
+      "imageUrl": "https://example.com/images/mensrunningshorts.jpg",
+      "rating": 4.4,
+      "reviews": 30,
+      "stock": 45
+    },
+    {
+      "id": 39,
+      "name": "Gaming Keyboard",
+      "price": 59.99,
+      "description": "Mechanical gaming keyboard with RGB lighting.",
+      "category": 1,
+      "subcategory": 103,
+      "imageUrl": "https://example.com/images/gamingkeyboard.jpg",
+      "rating": 4.6,
+      "reviews": 90,
+      "stock": 20
+    },
+    {
+      "id": 40,
+      "name": "Electric Grill",
+      "price": 79.99,
+      "description": "Compact electric grill with adjustable temperature control.",
+      "category": 3,
+      "subcategory": 301,
+      "imageUrl": "https://example.com/images/electricgrill.jpg",
+      "rating": 4.5,
+      "reviews": 35,
+      "stock": 15
+    },
+    {
+      "id": 41,
+      "name": "Women's Dress",
+      "price": 49.99,
+      "description": "Elegant women's dress with a flattering fit.",
+      "category": 2,
+      "subcategory": 202,
+      "imageUrl": "https://example.com/images/womensdress.jpg",
+      "rating": 4.7,
+      "reviews": 50,
+      "stock": 20
+    },
+    {
+      "id": 42,
+      "name": "Smart Light Bulb",
+      "price": 24.99,
+      "description": "Wi-Fi enabled smart light bulb with color changing options.",
+      "category": 1,
+      "subcategory": 103,
+      "imageUrl": "https://example.com/images/smartlightbulb.jpg",
+      "rating": 4.6,
+      "reviews": 70,
+      "stock": 40
+    },
+    {
+      "id": 43,
+      "name": "Men's Leather Belt",
+      "price": 19.99,
+      "description": "Stylish men's leather belt with classic buckle.",
+      "category": 2,
+      "subcategory": 203,
+      "imageUrl": "https://example.com/images/mensleatherbelt.jpg",
+      "rating": 4.5,
+      "reviews": 55,
+      "stock": 35
+    },
+    {
+      "id": 44,
+      "name": "Children's Puzzle",
+      "price": 14.99,
+      "description": "Colorful and educational puzzle for children.",
+      "category": 7,
+      "subcategory": 703,
+      "imageUrl": "https://example.com/images/childrenspuzzle.jpg",
+      "rating": 4.8,
+      "reviews": 85,
+      "stock": 25
+    },
+    {
+      "id": 45,
+      "name": "Hair Straightener",
+      "price": 29.99,
+      "description": "Ceramic hair straightener with adjustable heat settings.",
+      "category": 6,
+      "subcategory": 602,
+      "imageUrl": "https://example.com/images/hairstraightener.jpg",
+      "rating": 4.4,
+      "reviews": 40,
+      "stock": 30
+    },
+    {
+      "id": 46,
+      "name": "Kids' Sneakers",
+      "price": 29.99,
+      "description": "Comfortable and durable sneakers for kids.",
+      "category": 2,
+      "subcategory": 201,
+      "imageUrl": "https://example.com/images/kidssneakers.jpg",
+      "rating": 4.6,
+      "reviews": 50,
+      "stock": 40
+    },
+    {
+      "id": 47,
+      "name": "HD TV",
+      "price": 299.99,
+      "description": "32-inch HD TV with vibrant picture quality.",
+      "category": 1,
+      "subcategory": 101,
+      "imageUrl": "https://example.com/images/hdtv.jpg",
+      "rating": 4.5,
+      "reviews": 65,
+      "stock": 20
+    },
+    {
+      "id": 48,
+      "name": "Children's Art Set",
+      "price": 19.99,
+      "description": "Complete art set with crayons, markers, and coloring books.",
+      "category": 7,
+      "subcategory": 703,
+      "imageUrl": "https://example.com/images/childrensartset.jpg",
+      "rating": 4.8,
+      "reviews": 100,
+      "stock": 30
+    },
+    {
+      "id": 49,
+      "name": "Bluetooth Earbuds",
+      "price": 29.99,
+      "description": "Compact Bluetooth earbuds with charging case.",
+      "category": 1,
+      "subcategory": 101,
+      "imageUrl": "https://example.com/images/bluetoothbuds.jpg",
+      "rating": 4.6,
+      "reviews": 75,
+      "stock": 45
+    },
+    {
+      "id": 50,
+      "name": "Women's Handbag",
+      "price": 59.99,
+      "description": "Stylish women's handbag with multiple compartments.",
+      "category": 2,
+      "subcategory": 203,
+      "imageUrl": "https://example.com/images/womenshandbag.jpg",
+      "rating": 4.7,
+      "reviews": 65,
+      "stock": 30
+    }
+  ]
+}
